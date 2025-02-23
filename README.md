@@ -1,6 +1,6 @@
 # Bioinfomatics_王培昱_week1
 ## 课前内容
-- 课程内容使用网页而非网络学堂 https://www.ncrnalab.org/courses/bioinfo1/
+课程内容使用网页而非网络学堂 https://www.ncrnalab.org/courses/bioinfo1/
 ## 绪论
 ### 编程语言
 - Linux Bash（？）：处理字符串
@@ -13,7 +13,7 @@
 - 一次Pre（教师3、学生7）
 - 加分题
 ### 沟通
-- 最好用email而非微信
+最好用email而非微信
 ## Introduction-Part1
 ### 关于生物学/生物信息学
 - question：RNG：Robot Nanotech Genetics
