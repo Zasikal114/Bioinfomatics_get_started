@@ -16,4 +16,8 @@
 - 最好用email而非微信
 ## Introduction-Part1
 ### 关于生物学/生物信息学
-- RNG：Robot Nanotech Genetics
+- question：RNG：Robot Nanotech Genetics
+- information：images、**sequences**：NGS：DNA、RNA、EpiGenetics、Interaction。数据太多。
+- analysis：bioinformatic tools
+- modeling
+- 
