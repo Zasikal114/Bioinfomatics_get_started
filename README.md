@@ -19,5 +19,5 @@
 - question：RNG：Robot Nanotech Genetics
 - information：images、**sequences**：NGS：DNA、RNA、EpiGenetics、Interaction。数据太多。
 - analysis：bioinformatic tools
-- modeling
-- 
+- modeling：算法（Algorithm）是特定的计算方法、规则，用于训练模型，是过程；模型（Model）是训练的结果，用于解决问题，进行特定内容的预测。
+
