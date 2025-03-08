@@ -26,3 +26,16 @@ test@bioinfo_docker:~/linux$ grep -v -w "IV" 1.gtf | awk '$7 == "-" && $3 == "CD
 12276
 ```
 ```
+test@bioinfo_docker:~/linux$ grep -w "XV" 1.gtf | awk '$3 == "gene" {gene_id=$10; gsub(/[";]/, "", gene_id); print gene_id, $5 - $4 + 1}' | sort -k2,2nr | head -n 5
+YOL081W 9240
+YOR396W 5391
+YOR192C-B 5314
+YOR343W-B 5314
+YOL103W-B 5269
+```
+```
+test@bioinfo_docker:~/linux$ awk '{print NF}' 1.gtf | sort -n | tail -n 1
+34
+test@bioinfo_docker:~/linux$ awk -F'\t' '{print NF}' 1.gtf | sort -n | tail -n 1
+9
+```
