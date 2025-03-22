@@ -64,5 +64,6 @@ test@bioinfo_docker:~/mapping/bwa$ sudo cp bwa /usr/local/bin/
 test@bioinfo_docker:~/mapping/bwa$ wget http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.fa.gz
 test@bioinfo_docker:~/mapping/bwa$ gunzip sacCer3.fa.gz
 test@bioinfo_docker:~/mapping/bwa$ bwa index sacCer3.fa
+test@bioinfo_docker:~/mapping/bwa$ cd ..
 test@bioinfo_docker:~/mapping$ bwa mem /home/test/mapping/bwa/sacCer3.fa THA2.fa > THA2-bwa.sam
 ```
