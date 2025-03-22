@@ -43,9 +43,14 @@ test@bioinfo_docker:~/mapping$ grep -v '^@' THA2.sam | cut -f 3 | sort | uniq -c
 - H：硬剪切（read 的一部分未比对到参考基因组，且这些碱基不包含在 read 中）。
 - =：完全匹配。
 - X：错配。
+
 （3.2）Soft clip 表示 read 的一部分未比对到参考基因组，但这些碱基仍然保留在 read 中， 用 S 表示。
+
 （3.3）Mapping quality (MAPQ) 是 SAM/BAM 文件中的一个字段，表示 reads 比对到参考基因组的可靠性。
 它是一个 Phred 质量分数，计算公式为：MAPQ = -10 * log10(P)，其中 P 是比对错误的概率。
 取值范围一般为从0到60。
 MAPQ 越高，read 比对到参考基因组的置信度越高。
 MAPQ 低可能表示 read 比对到多个位置（多重比对）或比对质量差。
+
+（3.4）
+一般而言不可以。但是如果文件包含MD tag，则文件包含所比对到的参考基因组区域的详细信息，那么是可以的。
