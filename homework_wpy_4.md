@@ -54,3 +54,15 @@ MAPQ 低可能表示 read 比对到多个位置（多重比对）或比对质量
 
 （3.4）
 一般而言不可以。但是如果文件包含MD tag，则文件包含所比对到的参考基因组区域的详细信息，那么是可以的。
+
+（4）
+```
+test@bioinfo_docker:~/mapping$ git clone https://github.com/lh3/bwa.git
+test@bioinfo_docker:~/mapping$ cd bwa
+test@bioinfo_docker:~/mapping/bwa$ make
+test@bioinfo_docker:~/mapping/bwa$ sudo cp bwa /usr/local/bin/
+test@bioinfo_docker:~/mapping/bwa$ wget http://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.fa.gz
+test@bioinfo_docker:~/mapping/bwa$ gunzip sacCer3.fa.gz
+test@bioinfo_docker:~/mapping/bwa$ bwa index sacCer3.fa
+test@bioinfo_docker:~/mapping$ bwa mem /home/test/mapping/bwa/sacCer3.fa THA2.fa > THA2-bwa.sam
+```
