@@ -67,3 +67,5 @@ test@bioinfo_docker:~/mapping/bwa$ bwa index sacCer3.fa
 test@bioinfo_docker:~/mapping/bwa$ cd ..
 test@bioinfo_docker:~/mapping$ bwa mem /home/test/mapping/bwa/sacCer3.fa THA2.fa > THA2-bwa.sam
 ```
+
+！[如果看到这个，说明截图显示失败](
