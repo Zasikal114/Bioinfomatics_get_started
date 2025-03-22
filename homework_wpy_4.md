@@ -1,3 +1,5 @@
+## Mapping
+---
 （1）
 
 BWT对原始序列进行高效压缩，同时通过生成索引在压缩数据上直接进行高效的字符串匹配，并且通过 backward search 算法在线性时间内快速定位匹配的子串。从而提高了运算速度。
@@ -67,5 +69,6 @@ test@bioinfo_docker:~/mapping/bwa$ bwa index sacCer3.fa
 test@bioinfo_docker:~/mapping/bwa$ cd ..
 test@bioinfo_docker:~/mapping$ bwa mem /home/test/mapping/bwa/sacCer3.fa THA2.fa > THA2-bwa.sam
 ```
-
+## Genome Browser
+---
 ![如果看到这个，说明截图显示失败](https://github.com/Zasikal114/Bioinfomatics_get_started/blob/main/image.png)
