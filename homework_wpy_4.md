@@ -68,4 +68,4 @@ test@bioinfo_docker:~/mapping/bwa$ cd ..
 test@bioinfo_docker:~/mapping$ bwa mem /home/test/mapping/bwa/sacCer3.fa THA2.fa > THA2-bwa.sam
 ```
 
-！[如果看到这个，说明截图显示失败](
+！[如果看到这个，说明截图显示失败](https://github.com/Zasikal114/Bioinfomatics_get_started/blob/main/image.png)
