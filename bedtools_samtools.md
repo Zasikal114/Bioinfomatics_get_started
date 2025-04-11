@@ -25,3 +25,9 @@ bedtools subtract -a ACTB.gene.sorted.bed -b ACTB.exons.merged.bed > ACTB.intron
 bedtools intersect -a COAD.ACTB.bam -b ACTB.introns.bed -ubam > COAD.ACTB.introns.bam
 samtools fastq COAD.ACTB.introns.bam > COAD.ACTB.introns.fastq
 ```
+### (4)
+```
+samtools sort COAD.ACTB.bam -o COAD.ACTB.sorted.bam
+samtools index COAD.ACTB.sorted.bam
+bedtools genomecov -ibam COAD.ACTB.sorted.bam -bga -split > COAD.ACTB.coverage.bedgraph
+```
