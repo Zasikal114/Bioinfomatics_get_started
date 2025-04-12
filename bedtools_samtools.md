@@ -44,3 +44,22 @@ bedtools genomecov -ibam COAD.ACTB.sorted.bam -bga -split > COAD.ACTB.coverage.b
     - 非编码RNA基因
     - 假基因
     - 保守非编码区
+### 人类非编码RNA
+总计41970个，数据来自https://www.gencodegenes.org/human/stats.html
+| RNA类型 | 基因数目 | 功能 |
+|:----:|:-----:|:----:|
+|lncRNA|34914|调控基因表达，参与染色质修饰、转录调控、RNA剪切、表观遗传调控等|
+|miRNA|1879|通过结合靶标mRNA的3'非翻译区（UTR），抑制翻译或降解mRNA，调控基因表达|
+|misc_RNA|2208|-|
+|Mt_rRNA|2|参与线粒体核糖体组装，介导线粒体内蛋白质的翻译|
+|Mt_tRNA|22|在线粒体翻译过程中转运特定氨基酸，参与线粒体蛋白合成|
+|rRNA|47|构成核糖体的核心结构，直接参与mRNA翻译成蛋白质的催化过程|
+|scaRNA|49|定位于细胞核的卡哈尔体（Cajal body），指导snRNA的化学修饰|
+|scRNA|1|-|
+|snoRNA|942|在核仁中指导rRNA的化学修饰|
+|snRNA|1901|参与剪接体组装，调控pre-mRNA的剪切和拼接|
+|sRNA|5|-|
+
+
+
+
