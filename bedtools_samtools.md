@@ -1,3 +1,4 @@
+## bedtools/samtools部分
 ### (1)
 单端分析测序结果
 ```
@@ -31,3 +32,15 @@ samtools sort COAD.ACTB.bam -o COAD.ACTB.sorted.bam
 samtools index COAD.ACTB.sorted.bam
 bedtools genomecov -ibam COAD.ACTB.sorted.bam -bga -split > COAD.ACTB.coverage.bedgraph
 ```
+## homework部分
+### 人类基因组
+人类基因组大小：3.1Gb（NCBI;GRCh38.p14;Feb 3, 2022）
+- 人类基因组基本组成：
+  - 编码区
+    - 蛋白质编码基因
+    - 调控序列
+  - 非编码区
+    - 重复序列
+    - 非编码RNA基因
+    - 假基因
+    - 保守非编码区
