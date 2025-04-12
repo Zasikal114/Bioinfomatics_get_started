@@ -34,7 +34,7 @@ bedtools genomecov -ibam COAD.ACTB.sorted.bam -bga -split > COAD.ACTB.coverage.b
 ```
 ## homework部分
 ### 人类基因组
-人类基因组大小：3.1Gb（NCBI;GRCh38.p14;Feb 3, 2022）
+人类基因组大小：3.1Gb（ NCBI ; GRCh38.p14 ; Feb 3, 2022 ）
 - 人类基因组基本组成：
   - 编码区
     - 蛋白质编码基因
