@@ -21,4 +21,6 @@ p <- ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
 # 显示图形
 print(p)
 ```
+
 ![小提琴图](R上机任务.png)
+
